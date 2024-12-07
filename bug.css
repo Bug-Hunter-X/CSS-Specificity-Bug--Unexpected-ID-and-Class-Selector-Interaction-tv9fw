@@ -1,0 +1,4 @@
+/* This CSS rule unintentionally targets elements with both class 'container' and id 'main' */
+#main.container {
+  width: 80%;
+}
