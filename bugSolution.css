@@ -1,0 +1,14 @@
+/* This CSS rule uses more specific selectors to target only the intended element, solving the specificity issue */
+#main {
+  width: 80%;
+}
+
+/* Or, if the class is necessary, be more explicit */
+#main.container {
+  width: 80%;
+}
+
+/* Or, if there are other elements with the same class use :not() to avoid the unexpected styling */
+.container:not(#secondary) {
+  width: 80%;
+}
